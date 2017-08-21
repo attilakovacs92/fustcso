@@ -1,0 +1,61 @@
+/* Loading Page */
+#loading {background-color: #c0392b;}
+
+/* Color-Box Switch */
+.color-switcher h6 {background: #c0392b;}
+.color-switcher .switcher-btn {background-color: #c0392b;}
+
+/* Header Text */
+.header-text h2 span.typed-element,
+.header-text h2 span.typed-cursor,
+.header-text h2 {color: #c0392b;}
+.header-text a:hover {background-color: #c0392b;}
+.header-text > .social-links a {background-color: transparent;}
+.header-text > .social-links a:hover {color: #c0392b;}
+
+/* Navbar */
+.mainmenu ul.nav.navbar-nav li:hover a {color: #c0392b;}
+.mainmenu ul.nav.navbar-nav li.active > a {color: #c0392b;}
+.navbar-toggle .icon-bar {background-color: #c0392b}
+
+/* About Us Section */
+.about-us .about-img img {border: 5px solid #c0392b;}
+.about-us .about-content a {background-color: #c0392b; border: 2px solid #c0392b;}
+.about-us .about-content a:hover {background-color: transparent; border: 2px solid #c0392b; color: #c0392b;}
+.about-us .about-content a i.fa:hover {color: #c0392b;}
+
+/* About Bottom Section */
+.about-bottom .about-left a {border: 2px solid #c0392b;}
+.about-bottom .about-left a:hover {background-color: #c0392b;}
+.about-bottom .skillbar-bar {background: #c0392b;}
+
+/* Fun Facts Section */
+.fun-facts .fact span.timer {color: #c0392b;}
+
+/* Services Section */
+.services .single-service i {color: #c0392b;}
+
+/* Portfolio Section */
+.portfolio-filter > .nav > li.active,
+.portfolio-filter > .nav > li:hover {color: #c0392b;}
+.portfolio .porfolio-items .single-porfolio .img .porto-body .porto-icon a i.fa:hover {background: #c0392b;}
+
+/* Promo Section */
+.promo .promo-content a {border: 2px solid #c0392b;}
+.promo .promo-content a:hover {background-color: #c0392b; border-color: #c0392b;}
+
+/* Blog Section */
+.blog .blog-content a:hover {background-color: #c0392b;}
+
+/* Client Section */
+.client .single-client i.fa {color: #c0392b;}
+.client .single-client .client-img img {border: 5px solid #c0392b;}
+.client .single-client span {color: #c0392b;}
+.client .owl-theme .owl-controls .owl-page span {border: 3px solid #c0392b;}
+
+/* Contact Section */
+.contact .contact-form input[type=submit]:hover {background-color: #c0392b;}
+
+/* Footer Section */
+#footer .social-link a:hover {color: #c0392b;}
+#footer .copyright p a:hover {color: #c0392b;}
