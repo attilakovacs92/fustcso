@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 col-md-offset-1 col-sm-4 col-xs-12">
-                <div class="about-img">
+                <div class="">
                     <img src="img/logo.jpg" alt="about image">
                 </div>
                 <div class="img-content text-center">
