@@ -98,41 +98,41 @@ Author: modern_theme
     /* ---------------------------------------------------
         6 - Particle Background in Home Section
     ----------------------------------------------------- */
-    window.onload = function() {
-        Particles.init({
-            // normal options
-            color: '#b9b9b9',
-            connectParticles: false,
-            selector: '.particle-bg',
-            maxParticles: 100,
-            minDistance: 120,
-            sizeVariations: 5,
-            speed: 0.6,
+    /*window.onload = function() {*/
+        //Particles.init({
+            //// normal options
+            //color: '#b9b9b9',
+            //connectParticles: false,
+            //selector: '.particle-bg',
+            //maxParticles: 100,
+            //minDistance: 120,
+            //sizeVariations: 5,
+            //speed: 0.6,
 
-            // options for breakpoints
-            responsive: [
-                {
-                    breakpoint: 768,
-                    options: {
-                        maxParticles: 70,
-                        color: '#b9b9b9',
-                        connectParticles: false
-                    }
-                }, {
-                    breakpoint: 425,
-                    options: {
-                        maxParticles: 30,
-                        connectParticles: true
-                    }
-                }, {
-                    breakpoint: 320,
-                    options: {
-                        maxParticles: 0 // disables particles.js
-                    }
-                }
-            ]
-        });
-    };
+            //// options for breakpoints
+            //responsive: [
+                //{
+                    //breakpoint: 768,
+                    //options: {
+                        //maxParticles: 70,
+                        //color: '#b9b9b9',
+                        //connectParticles: false
+                    //}
+                //}, {
+                    //breakpoint: 425,
+                    //options: {
+                        //maxParticles: 30,
+                        //connectParticles: true
+                    //}
+                //}, {
+                    //breakpoint: 320,
+                    //options: {
+                        //maxParticles: 0 // disables particles.js
+                    //}
+                //}
+            //]
+        //});
+    /*};*/
     
     /* ---------------------------------------------------
         7 - Hide menu after clicking on a link 
@@ -179,7 +179,7 @@ Author: modern_theme
     } else {
         parallaxHome.parallax("50%", 0.3);
         parallaxFacts.parallax("50%", 0.3);
-        parallaxPromo.parallax("30%", 0.3);
+        //parallaxPromo.parallax("30%", 0.3);
         parallaxclient.parallax("50%", 0.3);
     }
     
@@ -200,6 +200,7 @@ Author: modern_theme
     $('.porfolio-items').isotope({
         itemSelector: '.single-porfolio',
         layoutMode: 'fitRows',
+        filter: '.fustcso'
     });
 
     //isoptop click function
@@ -208,6 +209,7 @@ Author: modern_theme
         $(this).addClass("active");
 
         var selector = $(this).attr("data-filter");
+        console.log(selector);
         $(".porfolio-items").isotope({
             filter: selector,
             animationOptions: {

@@ -35,7 +35,7 @@
     <!-- Responsive  Css -->
     <link rel="stylesheet" href="assets/css/responsive.css">
     <!-- Color Styles Css -->
-    <link rel="stylesheet" href="assets/css/colors/color-5.css">
+    <link rel="stylesheet" href="assets/css/colors/color-6.css">
 
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
