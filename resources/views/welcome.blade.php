@@ -75,8 +75,8 @@
                                     <span class="icon-bar"></span> 
                                 </button>
                                 <!-- Site Logo Start -->
-                               {{-- <div class="logo">--}}
-                                    {{--<img class="img-responsive" src="img/logo-icon.jpg"alt="">--}}
+                                {{--<div class="logo">--}}
+                                    {{--<img class="img-responsive" src="img/logo-nav.png"alt="">--}}
                                 {{--</div>--}}
                             </div>
                             <!-- Navbar Start -->
@@ -107,7 +107,7 @@
                             <div id="header-text" class="header-text text-center">
                                 <h2>Kőrös Szerkezetgyártó Kft.</h2>
                                 <p>2750 Nagykőrös, Rákóczi 2. tanya</p>
-                                <a href="#products">Termékek</a>
+                                <a href="#products"><i class="fa fa-shopping-cart"></i> Webshop</a>
                             </div>
                         </div> <!-- End of Header Text -->
                     </div> <!-- End of Row -->

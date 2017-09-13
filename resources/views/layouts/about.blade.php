@@ -1,15 +1,15 @@
-<div class="about-us" id="about">
+<div class="about-us" id="about" style="background-image: url('/img/bg-logo.png'); background-repeat: no-repeat; background-attachment: fixed;  background-position: center; padding-bottom: 70px; margin-bottom: 0px;">
     <div class="container">
         <div class="row">
-            <div class="col-md-3 col-md-offset-1 col-sm-4 col-xs-12">
-                <div class="">
-                    <img src="img/logo.jpg" alt="about image">
-                </div>
-                <div class="img-content text-center">
-                </div>
-            </div>
-            <div class="col-md-7 col-sm-8 col-xs-12">
-                <div class="about-content">
+            <d{{--iv class="col-md-3 col-md-offset-1 col-sm-4 col-xs-12">--}}
+                {{--<div class="">--}}
+                    {{--<img src="img/logo.jpg" alt="about image">--}}
+                {{--</div>--}}
+                {{--<div class="img-content text-center">--}}
+                {{--</div>--}}
+            {{--</div>--}}
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="about-content" style="color: black; text-align: center; font-size: 15px;">
                     <h3>Kik vagyunk?</h3>
                     <p>A Kőrös Szerkezetgyártó Kft. 1991 januárjában kezdte meg működését Nagykőrösön. Fő tevékenységünkként a különböző méretű acél füstelvezető csövek gyártását emeljük ki, melyek a kazán, kandalló és a kémény közötti égéstermék biztonságos elvezetését szolgálják.</p>
                     <p><strong> (A Füstcsövek teljesítmény nyilatkozatának száma: 305/2011/EU V. Melléklet 1.3 – 2 +,
