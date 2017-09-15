@@ -85,7 +85,7 @@
                                     <ul class="nav navbar-nav">
                                         <li class="active smooth-menu"><a href="#home">Kezdőlap</a></li>
                                         <li class="smooth-menu"><a href="#about">Rólunk</a></li>
-                                        <li class="smooth-menu"><a href="#products">Termékeink</a></li>
+                                        <li class="smooth-menu"><a href="#products">TERMÉKEK & SZOLGÁLTATÁSOK</a></li>
                                         <li class="smooth-menu"><a href="#promo">Karrier</a></li>
                                         <li class="smooth-menu"><a href="#contact">Elérhetőség</a></li>
                                     </ul>
