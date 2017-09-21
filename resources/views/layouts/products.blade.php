@@ -18,7 +18,7 @@
             <div class="portfolio-filter text-center">
                 <ul class="nav">
                     <li class="active" data-filter=".fustcso">Füstcső</li>
-                    <li data-filter=".szerkezet">Szerkezetgyártás</li>
+                    <li data-filter=".other">Egyéb termékek</li>
                     <li data-filter=".vasudvar">Vasudvar</li>
                     <li data-filter=".services">Szolgáltatásaink</li>
                 </ul>

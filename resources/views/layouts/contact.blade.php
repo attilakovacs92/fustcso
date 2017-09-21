@@ -5,7 +5,10 @@
         <div class="col-md-8 col-md-offset-2">
             <div class="section-title">
                 <h3>ÜZENET KÜLDÉS!</h3>
-                <i class="fa fa-home" aria-hidden="true"></i> 2750 Nagykoros, Rákóczi 2. tanya | <i class="fa fa-phone" aria-hidden="true"></i> +3653/706-272 | <i class="fa fa-mobile" aria-hidden="true"></i> +3630/303-7097
+                <i class="fa fa-home" aria-hidden="true"></i> 2750 Nagykoros, Rákóczi 2. tanya | 
+                <i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+3653706272">+3653/706-272 </a> | 
+                <i class="fa fa-mobile" aria-hidden="true"></i> <a href="tel:+36303037097">+3630/303-7097</a> |
+                <i class="fa fa-mobile" aria-hidden="true"></i> <a href="tel:+36307579476">+3630/757-9476</a> |
             </div>
         </div>
     </div> <!-- End of Section Title Row -->
