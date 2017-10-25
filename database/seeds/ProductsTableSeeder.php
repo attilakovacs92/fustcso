@@ -17,6 +17,7 @@ class ProductsTableSeeder extends Seeder
         [ 'title' => 'Acél füstcső 500 mm', 'img_path' => 'img/products/100.jpg', 'type' => 'fustcso',  'webshop_link' => 'https://korosszerkezetkft.shoprenter.hu/egyenes-fustcso-500mm-329'],
         [ 'title' => 'Acél füstcső 1000 mm', 'img_path' => 'img/products/100.jpg', 'type' => 'fustcso',  'webshop_link' => 'https://korosszerkezetkft.shoprenter.hu/egyenes-fustcso-1000mm-336'],
         [ 'title' => 'Acél füstcső 45°', 'img_path' => 'img/products/45.jpg', 'type' => 'fustcso',  'webshop_link' => 'https://korosszerkezetkft.shoprenter.hu/45-konyokcso-200x200mm-343'],
+        [ 'title' => 'Fali dugó', 'img_path' => 'img/products/falidugo.jpg', 'type' => 'fustcso',  'webshop_link' => 'https://korosszerkezetkft.shoprenter.hu/fali-dugo-393'],
         [ 'title' => 'Zártszelvény', 'img_path' => 'img/products/zartszelveny.jpg', 'type' => 'vasudvar',  'webshop_link' => ''],
         [ 'title' => 'Hegesztett hálók', 'img_path' => 'img/products/hegesztett-halok.jpg', 'type' => 'vasudvar',  'webshop_link' => ''],
         [ 'title' => 'Drótfonat', 'img_path' => 'img/products/drotfonat.jpg', 'type' => 'vasudvar',  'webshop_link' => ''],

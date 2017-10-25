@@ -36,7 +36,8 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
     <!-- Color Styles Css -->
     <link rel="stylesheet" href="assets/css/colors/color-6.css">
-
+    
+    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -86,7 +87,7 @@
                                         <li class="active smooth-menu"><a href="#home">Kezdőlap</a></li>
                                         <li class="smooth-menu"><a href="#about">Rólunk</a></li>
                                         <li class="smooth-menu"><a href="#products">TERMÉKEK & SZOLGÁLTATÁSOK</a></li>
-                                        <li class="smooth-menu"><a href="#promo">Karrier</a></li>
+                                        <li class="smooth-menu"><a href="#promo">Állásajánlataink</a></li>
                                         <li class="smooth-menu"><a href="#contact">Elérhetőség</a></li>
                                     </ul>
                                 </div>
@@ -105,9 +106,9 @@
                         <!-- Header Text -->
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <div id="header-text" class="header-text text-center">
-                                <h2>Kőrös Szerkezetgyártó Kft.</h2>
+                                <h2><b>Kőrös Szerkezetgyártó Kft.</b></h2>
                                 <p>2750 Nagykőrös, Rákóczi 2. tanya</p>
-                                <a href="#products"><i class="fa fa-shopping-cart"></i> Webshop</a>
+                                <a href="https://korosszerkezetkft.shoprenter.hu/fustcsovek-88" target="__blank"><i class="fa fa-shopping-cart"></i> Webshop</a>
                             </div>
                         </div> <!-- End of Header Text -->
                     </div> <!-- End of Row -->
@@ -155,7 +156,7 @@
         
         <!-- End of Contact Section -->
     </section>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d87042.0790885793!2d19.700303213889782!3d47.0193296822304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474162db142a76e9%3A0x400c4290c1e13a0!2zTmFneWvFkXLDtnMsIDI3NTA!5e0!3m2!1shu!2shu!4v1503317362055" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2717.5301390566187!2d19.780095315826713!3d47.069066632947674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDfCsDA0JzA4LjYiTiAxOcKwNDYnNTYuMiJF!5e0!3m2!1shu!2shu!4v1507718493933" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
     <!-- End of Content Section -->
     
     <!-- Footer Section Start -->

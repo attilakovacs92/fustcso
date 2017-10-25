@@ -22,16 +22,19 @@
                 <div class="form">
                     <!-- Start Contact Form -->
                     <div class="contact-form">
-                        <form action="#" method="post">
+                        <form action="{{ route('mail.contact') }}" method="post">
                             <ul>
                                 <li>
-                                    <input type="text" placeholder="név">
+                                    <input name="name" type="text" placeholder="Név">
                                 </li>
                                 <li>
-                                    <input type="email" placeholder="email">
+                                    <input name="email" type="email" placeholder="Email">
                                 </li>
                                 <li>
-                                    <textarea cols="20" rows="5" placeholder="üzenet..."></textarea>
+                                    <input name="phone" type="phone" placeholder="Telefonszám">
+                                </li>
+                                <li>
+                                    <textarea name="message" cols="20" rows="5" placeholder="üzenet..."></textarea>
                                 </li>
                                 <li>
                                     <input type="submit" value="üzenet küldése">

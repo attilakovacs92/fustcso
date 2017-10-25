@@ -7,3 +7,15 @@
 
 //// Bootstrap
 //@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+//
+
+.contact .contact-form input[type=email] {
+    text-transform: none;
+}
+
+.contact .contact-form input[type=phone] {
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    width: 100%;
+}

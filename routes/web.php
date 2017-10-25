@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//Mail
+Route::post('email', ['as'	=> 'mail.contact', 'uses' => 'MailsController@sendMailToSupport']);
+
+
 //Auth::routes();
 
 //Route::get('/home', 'HomeController@index')->name('home');

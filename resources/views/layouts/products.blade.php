@@ -7,7 +7,7 @@
         <div class="col-md-8 col-md-offset-2">
             <div class="section-title">
                 <h3>Termékek & Szolgáltatások</h3>
-                <p>Hegesztő mérnökünk, technológusunk folyamatos ellenőrzése mellett folyik a gyártás.</p>
+                <p>Vasáruinkat e-mailben vagy telefonon tudja megrendelni, mely telephelyünkön személyesen átvehető illetve igény szerint 30 km-es körzetben térítés ellenében kiszállítjuk.</p>
             </div>
         </div>
     </div> <!-- End of Section Title Row -->
