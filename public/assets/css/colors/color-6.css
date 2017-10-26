@@ -8,7 +8,7 @@
 /* Header Text */
 .header-text h2 span.typed-element,
 .header-text h2 span.typed-cursor,
-.header-text h2 {color: #336e7b;}
+.header-text h2 {color: #336e7b; font-weight: 400;}
 .header-text a:hover {background-color: #336e7b;}
 .header-text > .social-links a {background-color: transparent;}
 .header-text > .social-links a:hover {color: #336e7b;}
