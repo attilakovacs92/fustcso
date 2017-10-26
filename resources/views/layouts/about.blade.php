@@ -20,10 +20,34 @@
                     <hr>
                     <h4><strong>További Információk:</strong></h4>
                    <p>Hegesztő mérnökünk, technológusunk folyamatos ellenőrzése mellett folyik a gyártás. Előnyünk a gyors pontos rugalmas munkavégzés. Vizsgázott, minősített hegesztőink száma 10 fő. A következő hegesztési eljárásokat alkalmazzuk: 135,141,142. Anyagcsoport: DC01, S235JR, S355J2+N, 1.4301, 1.4404</p>
+                    <a class="center" type="button" data-toggle="modal" data-target="#myModal">Tanúsítványaink</a>
                 </div>
             </div>
         </div>
     </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Tanúsítványaink</h4>
+      </div>
+      <div class="modal-body">
+          <div class="row">
+              <div class="col-md-6"><img src="img/tanusitvanyok/tanusitvany1.jpg" alt=""></div>
+              <div class="col-md-6"><img src="img/tanusitvanyok/tanusitvany2.jpg" alt=""></div>
+              <div class="col-md-6"><img src="img/tanusitvanyok/tanusitvany3.jpg" alt=""></div>
+              <div class="col-md-6"><img src="img/tanusitvanyok/tanusitvany4.jpg" alt=""></div>
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
 </div>
 {{--<div class="about-bottom">--}}
     {{--<div class="container">--}}
