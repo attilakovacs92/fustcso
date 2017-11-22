@@ -40,7 +40,7 @@
                                     <textarea name="message" cols="20" rows="5" placeholder="üzenet..."></textarea>
                                 </li>
                                 <li>
-                                    <input type="submit" value="üzenet küldése" disabled>
+                                    <input type="submit" value="üzenet küldése">
                                 </li>
                             </ul>
                         </form>
