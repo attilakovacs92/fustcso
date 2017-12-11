@@ -4,7 +4,7 @@
         <!-- Fact No. ( 1 ) -->
         <div class="fact col-md-6 col-sm-6 col-xs-12 text-center">
             <span class="timer" data-from="0" data-to="420" data-speed="3000" data-refresh-interval="50"></span>
-            <p>elégedett ügyfél</p>
+            <p>{{ trans('counter.customer') }}</p>
         </div>
         <!-- Fact No. ( 2 ) -->
         {{--<div class="fact col-md-4 col-sm-6  col-xs-12 text-center">--}}
@@ -14,7 +14,7 @@
         <!-- Fact No. ( 3 ) -->
         <div class="fact col-md-6 col-sm-6 col-xs-12 text-center">
             <span class="timer" data-from="0" data-to="110" data-speed="3000" data-refresh-interval="50"></span>
-            <p>termék</p>
+            <p>{{ trans('counter.product') }}</p>
         </div>
         <!-- Fact No. ( 4 ) -->
         {{--<div class="fact col-md-3 col-sm-6 col-xs-12 text-center">--}}

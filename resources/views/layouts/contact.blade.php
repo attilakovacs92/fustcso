@@ -4,13 +4,13 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="section-title">
-                <h3>ÜZENET KÜLDÉS!</h3>
+                <h3>{{ trans('contact.title') }}</h3>
                 <i class="fa fa-home" aria-hidden="true"></i> 2750 Nagykoros, Rákóczi 2. tanya | 
                 <i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+3653706272">+3653/706-272 </a> | 
                 <i class="fa fa-mobile" aria-hidden="true"></i> <a href="tel:+36303037097">+3630/303-7097</a> |
                 <i class="fa fa-mobile" aria-hidden="true"></i> <a href="tel:+36307579476">+3630/757-9476</a>
                 <br>
-                <span>GPS koordináták: 47.069063, 19.782284<span>
+                <span>{{ trans('contact.gps') }} 47.069063, 19.782284<span>
             </div>
         </div>
     </div> <!-- End of Section Title Row -->
@@ -28,19 +28,19 @@
                             {{ csrf_field() }}
                             <ul>
                                 <li>
-                                    <input name="name" type="text" placeholder="Név">
+                                    <input name="name" type="text" placeholder="{{ trans('contact.name') }}">
                                 </li>
                                 <li>
-                                    <input name="email" type="email" placeholder="Email">
+                                    <input name="email" type="email" placeholder="{{ trans('contact.email') }}">
                                 </li>
                                 <li>
-                                    <input name="phone" type="phone" placeholder="Telefonszám">
+                                    <input name="phone" type="phone" placeholder="{{ trans('contact.phone') }}">
                                 </li>
                                 <li>
-                                    <textarea name="message" cols="20" rows="5" placeholder="üzenet..."></textarea>
+                                    <textarea name="message" cols="20" rows="5" placeholder="{{ trans('contact.message') }}"></textarea>
                                 </li>
                                 <li>
-                                    <input type="submit" value="üzenet küldése">
+                                    <input type="submit" value="{{ trans('contact.button') }}">
                                 </li>
                             </ul>
                         </form>

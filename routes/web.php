@@ -10,9 +10,16 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
+Route::group(
+[
+    'prefix' => LaravelLocalization::setLocale(), 
+    'middleware' => ['localize', 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath']
+], 
+function()
+{
+    Route::get('/', function () {
+        return view('welcome');
+    });
 });
 
 //Mail

@@ -10,17 +10,12 @@
             {{--</div>--}}
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="about-content" style="color: black; text-align: center; font-size: 15px;">
-                    <h3>Kik vagyunk?</h3>
-                    <p>A Kőrös Szerkezetgyártó Kft. 1991 januárjában kezdte meg működését Nagykőrösön. Fő tevékenységünkként a különböző méretű acél füstelvezető csövek gyártását emeljük ki, melyek a kazán, kandalló és a kémény közötti égéstermék biztonságos elvezetését szolgálják.
-                    (A Füstcsövek teljesítmény nyilatkozatának száma: 305/2011/EU V. Melléklet 1.3 – 2 +,
-                        Tanúsító ÉMI 1133 Budapest, Diószegi út 37.,
-                        Műszaki specifikáció: DIN EN 1856 – 2: 2009 System 2 +,
-                        M2-G405X-11609-2017, nyilatkozat szerinti teljesítmény: DIN EN 1856-2:2009).
-                    Eltérő átmérővel és falvastagsággal, különböző színre festve tudjuk kis- és nagykereskedelmeknek és a lakosságnak biztosítani.  Foglalkozunk lemezes megmunkálás, gépalkatrészek, acél-rozsdamentes szerkezetek gyártásával, lézervágással, lángvágással, élhajlítással, oldószeres és porfestéssel. Az évek során történt technológiai fejlesztéseknek köszönhetően képesek vagyunk különböző profilú cégek kiszolgálására. Munkánk során mindig a kiemelkedő minőséget tartjuk szem előtt, mely hitelességét európai szabványok és minősítések (ÉMI TÜV-TÜV - Rheiland) igazolnak. MSZ EN ISO 9001:2015, MSZ EN ISO 3834-2</p>
+                    <h3>{{ trans('about.title') }}</h3>
+                    <p>{{ trans('about.text') }}</p>
                     <hr>
-                    <h4><strong>További Információk:</strong></h4>
-                   <p>Hegesztő mérnökünk, technológusunk folyamatos ellenőrzése mellett folyik a gyártás. Előnyünk a gyors pontos rugalmas munkavégzés. Vizsgázott, minősített hegesztőink száma 10 fő. A következő hegesztési eljárásokat alkalmazzuk: 135,141,142. Anyagcsoport: DC01, S235JR, S355J2+N, 1.4301, 1.4404</p>
-                    <a class="center" type="button" data-toggle="modal" data-target="#myModal">Tanúsítványaink</a>
+                    <h4><strong>{{ trans('about.info') }}</strong></h4>
+                   <p>{{ trans('about.info-text') }}</p>
+                    <a class="center" type="button" data-toggle="modal" data-target="#myModal">{{ trans('about.certification') }}</a>
                 </div>
             </div>
         </div>

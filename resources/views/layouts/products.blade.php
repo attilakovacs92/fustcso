@@ -6,21 +6,21 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="section-title" style="margin-bottom: 15px;">
-                <h3>Termékek & Szolgáltatások</h3>
+                <h3>{{ trans('products.title') }}</h3>
                 <div class="header-text">
-                <a type="button" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Megjegyzések</a>
+                <a type="button" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">{{ trans('products.comments') }}</a>
                 </div>
 
             </div>
             <div class="collapse" id="collapseExample">
                 <div class="well">
-                    <h4>Füstcső</h4>
-                    <p>Az általunk gyártott vastagfalú acél füstcsöveket különböző  szabványméretekben 250 mm-1000mm hosszúságban, illteve könyökidomainkat 45° és 90° fokos változatban 2 féle (szürke, fekete) színben  tudjuk kínálni. A füstcsövek falvastagsága 1,5 mm-2,0mm között változhat. Füstcsöveink megfelelnek az Uniós szabványoknak.</p>
+                    <h4>{{ trans('products.smoke') }}</h4>
+                    <p>{{ trans('products.smoke-text') }}</p>
                     <hr>
-                    <h4>Vasudvar</h4>
-                    <p>Vasáruinkat e-mailben vagy telefonon (korosszerkezt@gmail.com, 0630/303-7097) tudja megrendelni, mely telephelyünkön személyesen átvehető illetve igény szerint 30 km-es körzetben térítés ellenében kiszállítjuk.</p> <hr>
-                    <h4>Szolgáltatásaink</h4>
-                    <p>Cégünk több éves tapasztalat birtokában széleskörű szolgáltatást nyújt a lemezmegmunkálás terén. Különböző egyedi gyártású gépek gyártását, gyártmánytervezését kínáljuk meglévő és új ügyfeleink számára a legkorszerűbb technológiák használatával.</p>
+                    <h4>{{ trans('products.iron') }}</h4>
+                    <p>{{ trans('products.iron-text') }}</p> <hr>
+                    <h4>{{ trans('products.services') }}</h4>
+                    <p>{{ trans('products.services-text') }}</p>
                 </div>
             </div>
         </div>
@@ -31,10 +31,10 @@
             <!-- Portfolio Filter Start -->
             <div class="portfolio-filter text-center">
                 <ul class="nav">
-                    <li class="active" data-filter=".fustcso" >Füstcső</li>
-                    <li data-filter=".other">Egyéb termékek</li>
-                    <li data-filter=".vasudvar">Vasudvar</li>
-                    <li data-filter=".services">Szolgáltatásaink</li>
+                    <li class="active" data-filter=".fustcso" >{{ trans('products.smoke') }}</li>
+                    <li data-filter=".other">{{ trans('products.other') }}</li>
+                    <li data-filter=".vasudvar">{{ trans('products.iron') }}</li>
+                    <li data-filter=".services">{{ trans('products.services') }}</li>
                 </ul>
             </div> <!-- End of Portfolio Filter -->
         </div>

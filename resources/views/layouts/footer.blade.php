@@ -40,3 +40,5 @@
 <!-- Main Js -->
 <script src="assets/js/main.js"></script>
 
+<script src="js/all.js"></script>
+
