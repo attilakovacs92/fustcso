@@ -28,16 +28,16 @@
                             {{ csrf_field() }}
                             <ul>
                                 <li>
-                                    <input name="name" type="text" placeholder="{{ trans('contact.name') }}">
+                                    <input name="name" type="text" placeholder="{{ trans('contact.name') }}" required>
                                 </li>
                                 <li>
-                                    <input name="email" type="email" placeholder="{{ trans('contact.email') }}">
+                                    <input name="email" type="email" placeholder="{{ trans('contact.email') }}" required>
                                 </li>
                                 <li>
-                                    <input name="phone" type="phone" placeholder="{{ trans('contact.phone') }}">
+                                    <input name="phone" type="phone" placeholder="{{ trans('contact.phone') }}" required>
                                 </li>
                                 <li>
-                                    <textarea name="message" cols="20" rows="5" placeholder="{{ trans('contact.message') }}"></textarea>
+                                    <textarea name="message" cols="20" rows="5" placeholder="{{ trans('contact.message') }}" required></textarea>
                                 </li>
                                 <li>
                                     <input type="submit" value="{{ trans('contact.button') }}">

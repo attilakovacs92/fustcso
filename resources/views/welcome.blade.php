@@ -101,6 +101,14 @@
                                                     @endforeach
                                                 </ul>
                                             </li>
+                                            @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+                                                        <li class="menu-lang">
+                                                            <a rel="alternate" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
+                                                                {{ $properties['native'] }}
+                                                            </a>
+                                                        </li>
+                                                    @endforeach
+
                                         </ul>
                                     </div>
                                 </div> <!-- End of Navbar -->
