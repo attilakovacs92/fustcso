@@ -101,14 +101,6 @@
                                                     @endforeach
                                                 </ul>
                                             </li>
-                                            @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
-                                                        <li class="menu-lang">
-                                                            <a rel="alternate" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
-                                                                {{ $properties['native'] }}
-                                                            </a>
-                                                        </li>
-                                                    @endforeach
-
                                         </ul>
                                     </div>
                                 </div> <!-- End of Navbar -->
@@ -128,7 +120,8 @@
                                 <div id="header-text" class="header-text text-center">
                                     <h2><b>Kőrös Szerkezetgyártó Kft.</b></h2>
                                     <p>2750 Nagykőrös, Rákóczi 2. tanya</p>
-                                    <a href="https://korosszerkezetkft.shoprenter.hu/fustcsovek-88" target="__blank"><i class="fa fa-shopping-cart"></i> Webshop</a>
+                                    <a href="https://korosszerkezetkft.shoprenter.hu/fustcsovek-88" target="__blank" style="margin-bottom: 25px;"><i class="fa fa-shopping-cart fa-fw"></i> Webshop</a>
+                                    <a href="#" data-toggle="modal" data-target="#porfestes"><i class="fa fa-paint-brush fa-fw"></i> HOMOK FÚVÁS & PORFESTÉS</a>
                                 </div>
                             </div> <!-- End of Header Text -->
                         </div> <!-- End of Row -->
@@ -137,6 +130,48 @@
             </div> <!-- End of Header Text Area -->
         </header>
         <!-- End of Header Section -->
+        <div class="modal fade" id="porfestes" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">HOMOK FÚVÁS & PORFESTÉS</h4>
+                    </div>
+                    <div class="modal-body">
+                        <h3>HOMOK FÚVÁS</h3> <br>
+                        <h5>Lemez felni:</h5>
+                        <ul>
+                            <li>13” - 16” 3.000,- Ft/db + áfa</li>
+                            <li>17" < 3.500,- Ft/db + áfa </li>
+                        <ul><br>
+
+                        <h5>Alu felni:</h5>
+                        <ul>
+                            <li>13” - 16” 3.500,- Ft/db + áfa</li>
+                            <li>17” < 4.000,- Ft/db + áfa </li>
+                        <ul>
+                        <hr>
+                        <h3>PORFESTÉS</h3> <br>
+                        <h5>Lemez felni:</h5>
+                        <ul>
+                            <li>13” - 16” 3.000,- Ft/db + áfa</li>
+                            <li>17"< 3.500,- Ft/db + áfa </li>
+                        <ul><br>
+                        <h5>Alu felni:</h5>
+                        <ul>
+                            <li>13” - 16” 3.500,- Ft/db + áfa</li>
+                            <li>17” - 19" 4.000,- Ft/db + áfa </li>
+                            <li>20” < 4.500,-  Ft/db + áfa</li>
+                        <ul> <br>
+                        <h4>Festés igényétől függően lakkozás: 2.000,- Ft/db + áfa</h4>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Bezár</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
         <!-- Content Section Start -->
         <section id="content">
