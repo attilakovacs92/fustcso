@@ -138,31 +138,42 @@
                         <h4 class="modal-title" id="myModalLabel">HOMOK FÚVÁS & PORFESTÉS</h4>
                     </div>
                     <div class="modal-body">
-                        <h3>HOMOK FÚVÁS</h3> <br>
-                        <h5>Lemez felni:</h5>
-                        <ul>
-                            <li>13” - 16” 3.000,- Ft/db + áfa</li>
-                            <li>17" < 3.500,- Ft/db + áfa </li>
-                        <ul><br>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3>HOMOK FÚVÁS</h3> <br>
+                                <h5>Lemez felni:</h5>
+                                <ul>
+                                    <li>13” - 16” 3.000,- Ft/db + áfa</li>
+                                    <li>17" < 3.500,- Ft/db + áfa </li>
+                                <ul><br>
 
-                        <h5>Alu felni:</h5>
-                        <ul>
-                            <li>13” - 16” 3.500,- Ft/db + áfa</li>
-                            <li>17” < 4.000,- Ft/db + áfa </li>
-                        <ul>
+                                <h5>Alu felni:</h5>
+                                <ul>
+                                    <li>13” - 16” 3.500,- Ft/db + áfa</li>
+                                    <li>17” < 4.000,- Ft/db + áfa </li>
+                                <ul>
+                            </div>
+                            <div class="col-md-6"><img src="/img/felni.jpg" alt=""></div>
+                        </div>
                         <hr>
-                        <h3>PORFESTÉS</h3> <br>
-                        <h5>Lemez felni:</h5>
-                        <ul>
-                            <li>13” - 16” 3.000,- Ft/db + áfa</li>
-                            <li>17"< 3.500,- Ft/db + áfa </li>
-                        <ul><br>
-                        <h5>Alu felni:</h5>
-                        <ul>
-                            <li>13” - 16” 3.500,- Ft/db + áfa</li>
-                            <li>17” - 19" 4.000,- Ft/db + áfa </li>
-                            <li>20” < 4.500,-  Ft/db + áfa</li>
-                        <ul> <br>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3>PORFESTÉS</h3> <br>
+                                <h5>Lemez felni:</h5>
+                                <ul>
+                                    <li>13” - 16” 3.000,- Ft/db + áfa</li>
+                                    <li>17"< 3.500,- Ft/db + áfa </li>
+                                <ul><br>
+                                <h5>Alu felni:</h5>
+                                <ul>
+                                    <li>13” - 16” 3.500,- Ft/db + áfa</li>
+                                    <li>17” - 19" 4.000,- Ft/db + áfa </li>
+                                    <li>20” < 4.500,-  Ft/db + áfa</li>
+                                <ul>
+                            </div>
+                            <div class="col-md-6"><img src="/img/szinskala.jpg" alt=""></div>
+                        </div>
+                        <br>
                         <h4>Festés igényétől függően lakkozás: 2.000,- Ft/db + áfa</h4>
                     </div>
                     <div class="modal-footer">
