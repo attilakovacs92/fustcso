@@ -4,7 +4,7 @@
         <!-- Meta Tags -->
         <meta charset="UTF-8">
         <meta name="description" content="A Kőrös Szerkezetgyártó Kft. 1991 januárjában kezdte meg működését Nagykőrösön. Fő tevékenységünkként a különböző méretű acél füstelvezető csövek gyártását emeljük ki, melyek a kazán, kandalló és a kémény közötti égéstermék biztonságos elvezetését szolgálják.">
-        <meta name="keywords" content="Acél Füstcső, Forgatható Könyök, Hődob,  Porfestő, Homok fúvás,  Porfestés,  Nagykőrös, Kecskemét">
+        <meta name="keywords" content="Acél Füstcső, lézervágás, lézeres lemezvágás, lemezvágás, Porfestő, Homok fúvás,  Porfestés,  Nagykőrös, Kecskemét">
         <meta name="robots" content="index, follow">
         <meta name="revisit-after" content="3 Months">
         <meta name="author" content="KŐRÖS SZERKEZETGYÁRTÓ KFT.">
