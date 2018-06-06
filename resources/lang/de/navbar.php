@@ -5,5 +5,6 @@ return [
     'products'      => 'Produkte & Services',
     'jobs'          => 'Stellenangebote',
     'contact'       => 'Kontakt',
-    'language'      => 'Sprache'
+    'language'      => 'Sprache',
+    'laser-text'    => 'Wir bieten den Auftraggebern (einschließlich der DXF-Datei) für das Laserschneiden individuelle Angebote innerhalb von 24 Stunden an.'
 ];

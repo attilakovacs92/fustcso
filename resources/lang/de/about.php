@@ -10,7 +10,13 @@ zertifiziert von ÉMI H-1133 Budapest, Diószegi Str. 37., technische Spezifikat
 Produkte werden für Einzel- und Großhandels und für die Bevölkerung, in diversen Durchmesser und
 Mauerdicke in verschiedenen Farben angeboten. Wir beschäftigen uns mit Blechbearbeitung, mit
 Produktion von Maschinenersatzteilen und rostfreie Stahlgefüge, mit Laserschnitt, mit
-Flammenschneiden, mit Kantenbördeln, mit Lösemittelhaltige- und Pulveranstrich. Dank der
+Flammenschneiden, mit Kantenbördeln, mit Lösemittelhaltige- und Pulveranstrich. Dank unserer modernen Ausrüstung können wir einen qualitativ hochwertigen Service beim
+Blechbiegen und Laserschneiden bieten. Unsere Trumph TruLaser3030 Laser-
+Schneidemaschine ist 3000x1500, unsere Brennschneidmaschine ist in der Lage,
+6000x2000 Quadratmeter unterzubringen. Unser Lagermaterial ist in einer breiten Palette
+von rostfreien, säurebeständigen und Kohlenstoffstählen bis zu einer Dicke von 50 mm
+erhältlich. Als neue Dienstleistung erwähnen wir unsere tragbare Kabine zur Aufnahme von
+3000x1500x1800 Werkstücken.Dank der
 technischen Entwicklungen der vergangenen Jahre sind wir fähig, Firmen mit verschiedenen Profile
 zu bedienen. Während unserer Arbeit halten wir uns die ausgezeichnete Qualität ständig vor Augen,
 welcher Authentizität europäische Standards und Qualifizierungen (ÉMI TÜV-TÜV- Rheinland)

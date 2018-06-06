@@ -9,7 +9,8 @@ Farben (grau und schwarz). Die Mauerdicke der Schornsteinröhre kann sich zwisch
 ändern. Unsere Schornsteinrohre entsprechen den Europäer unionischer Normen.',
     'other'         => 'Andere Produkte',
     'iron'          => 'Bestellen',
-    'iron-text'     => 'Unsere Eisenwaren können per E-Mail (korosszerkezt@gmail.com) oder per Telefon (+3630/303-
+    'iron-text'     => 'Breites Materiallager offenes und geschlossenes Profil, kalt- und warmgewalzte Platinen
+Edelstahl, säurebeständig, Kohlenstoffstahl Platten sind in einer Vielzahl von Größen erhältlich. Unsere Eisenwaren können per E-Mail (korosszerkezt@gmail.com) oder per Telefon (+3630/303-
 7097) bestellt und auf unserem Standort persönlich übergenommen werden, bzw. nach Bedarf im
 30- kilometrigen Bereich gegen Gebühr ausgeliefert werden.',
     'services'      => 'Dienstleistungen',

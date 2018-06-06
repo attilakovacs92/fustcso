@@ -12,7 +12,12 @@ DIN EN 1856-2: 2009).
 Our production covers in different diameter and wall thickness, painted in different colors
 to retail and wholesale trade and to private customers. We handle plate machining, machine parts, stainless steel structures,
 laser cutting, flame cutting, bending, solvent and powder coating. 
- 
+Thanks to our modern equipment we can provide high quality service in sheet bending and
+laser cutting. Our Trumph TruLaser3030 laser cutting machine is 3000x1500, our flame
+cutting machine is capable of accommodating 6000x2000 square meters. Our stock material
+stock is available in a wide range of stainless, acid resistant and carbon steel grades up to
+50 mm thick. As a new service we would mention our portable booth for accommodating
+3000x1500x1800 workpieces.
 Over the years, thanks to technological developments, we are able to serve companies with different profiles. 
 During our work, we always keep the outstanding quality in mind,
 which is certified by European standards and certifications (ÉMI TÜV-TÜV - Rheiland)

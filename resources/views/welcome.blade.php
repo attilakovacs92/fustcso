@@ -125,7 +125,8 @@
                                     <h2><b>Kőrös Szerkezetgyártó Kft.</b></h2>
                                     <p>2750 Nagykőrös, Rákóczi 2. tanya</p>
                                     <a href="https://korosszerkezetkft.shoprenter.hu/fustcsovek-88" target="__blank" style="margin-bottom: 25px;"><i class="fa fa-shopping-cart fa-fw"></i> Webshop</a>
-                                    <a href="#" data-toggle="modal" data-target="#porfestes"><i class="fa fa-paint-brush fa-fw"></i> HOMOK FÚVÁS & PORFESTÉS</a>
+                                    <a href="#" data-toggle="modal" data-target="#porfestes" style="margin-bottom: 25px;"><i class="fa fa-paint-brush fa-fw"></i> HOMOK FÚVÁS & PORFESTÉS</a>
+                                    <a href="#" data-toggle="modal" data-target="#lezervagas"><i class="fa fa-cut fa-fw"></i> Lézervágás egyedi árajánlatkérés</a>
                                 </div>
                             </div> <!-- End of Header Text -->
                         </div> <!-- End of Row -->
@@ -186,6 +187,24 @@
                 </div>
             </div>
         </div>
+        
+        <div class="modal fade" id="lezervagas" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">„Lézervágás egyedi árajánlatkérés„</h4>
+                    </div>
+                    <div class="modal-body">
+                       <p>{{ trans('navbar.laser-text') }}</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Bezár</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
 
         <!-- Content Section Start -->
