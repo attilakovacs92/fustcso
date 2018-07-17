@@ -1,6 +1,6 @@
-@php 
-    $items = DB::table('products')->get();
-@endphp
+{{--@php--}}
+    {{--$items = DB::table('products')->get();--}}
+{{--@endphp--}}
 <div class="container">
     <!-- Section Title Row Start -->
     <div class="row">
@@ -8,7 +8,7 @@
             <div class="section-title" style="margin-bottom: 15px;">
                 <h3>{{ trans('products.title') }}</h3>
                 <div class="header-text">
-                <a type="button" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">{{ trans('products.comments') }}</a>
+                    <a type="button" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">{{ trans('products.comments') }}</a>
                 </div>
 
             </div>
@@ -57,10 +57,29 @@
                                     <a href="{{ $item->img_path }}" data-lightbox="roadtrip" data-title="{{ $item->title }}">
                                         <i class="fa fa-search-plus"></i>
                                     </a>
-                                    @if ($item->type != 'services')
+                                    @if ($item->type == 'fustcso' || $item->type == 'other')
                                         <a href="{{ $item->webshop_link }}" target="_blank">
                                             <i class="fa fa-shopping-cart"></i>
                                         </a>
+                                    @endif
+                                    @if ($item->type == 'services')
+                                        <a data-toggle="modal" data-target="#{{ str_slug($item->title) }}">
+                                            <i class="fa fa-info"></i>
+                                        </a><!-- Services Modal -->
+                                        <div class="modal fade" id="{{ str_slug($item->title) }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                            <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                        <h4 class="modal-title" id="myModalLabel">{!! $item->title !!}</h4>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        {!! $item->service['description'] !!}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
                                     @endif
                                 </div>
                             </div>
@@ -71,4 +90,5 @@
         </div>
     </div> <!-- End of Portfolio Items Row -->
 </div> <!-- End of Container -->
+
 
