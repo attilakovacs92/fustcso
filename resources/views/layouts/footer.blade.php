@@ -11,6 +11,17 @@
 </footer>
 <!-- End of Footer Section -->
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123878407-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-123878407-1');
+</script>
+
+
 <!-- jQuery -->
 <script src="assets/js/jquery-1.12.4.min.js"></script>
 <!-- Bootstrap Js-->
